@@ -12,6 +12,8 @@ features implemented
 * StatusNotification service to check for the status of the chargers in databse
 * start / stop transaction to start the charging  and update the charger status to charging till it stops
 * Used OAuth2 with Github for api authentication
+
+
 Database tables used
 * charger_status to store the status of charger
 * charging_station to store the details of the charging station
