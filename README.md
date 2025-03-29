@@ -1,8 +1,13 @@
-Implemented OCPP 1.6 features in Springboot 
-- 
-features included:
-- 
-  1.Implemented HeartBeat service, StatusNotification service, Start/Stop transaction services
-  3. Used WebSockets for communication
-  4. Used RESTful API calls to fetch data from database
-  5. MySql database was used to store the data
+# OCPP 1.6 features implementation
+
+
+* Spring framework used for implementation 
+* MySql databse 
+* REST APIs and WebSocket for communication 
+
+features implemented
+
+* Implemented BootNotification service which sends the charger details and updates it's availability in database
+* HeartBeat will check every minute for the activity of the charger, if it is not active for more than 5 minutes it's status will be updated as Faulted
+* StatusNotification service to check for the status of the chargers in databse
+* start / stop transaction to start the charging  and update the charger status to charging till it stops
