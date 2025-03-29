@@ -17,5 +17,5 @@ features implemented
 Database tables used
 * charger_status to store the status of charger
 * charging_station to store the details of the charging station
-* transactions to store the starttime and end time of the transaction
+* transaction to store the starttime and end time of the transaction
 sample request responses were provided in sampleRequests table
